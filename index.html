@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/global.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/ali-style.css">
+    <link rel="stylesheet" href="css/style(1).min.css">
+    <script src="js/jquery-latest.min.js"></script>
+
+    <!-- <script async="" src="js/js"></script> -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'UA-122017753-1');
+      </script>
+</head>
+<body>
+    <section class="page-content layout-container bg_default">
+        <div class="layout-content">       
+            <div class="layout-row xs-layout-column">
+                <div class="flex-33 xs-flex-100">
+                    <div class="parameters">
+                        <div class="heading h2 "><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Purchase price</font></font></span><div class="post-heading"></div></div>                    <section class="input-container">
+                            <div class="block">
+                                <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enter the total purchase price of your new property.</font></font></label>
+                                <input id="purchase_price" value="225000" style="width:calc(100% - 20px);"><span class="unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$</font></font></span>
+                            </div>
+    
+                            <select id="specified-city" style="display: none;"><option value="93042" selected="selected"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Regular rate</font></font></option><option value="66105"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Beaconsfield</font></font></option><option value="73015"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blainville</font></font></option><option value="73005"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boisbriand</font></font></option><option value="59005"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boucherville</font></font></option><option value="58005"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Brossard</font></font></option><option value="67020"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Candiac</font></font></option><option value="57005"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chambly</font></font></option><option value="67050"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chateauguay</font></font></option><option value="66055"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cote Saint-Luc</font></font></option><option value="66140"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dollard-Des-Ormeaux</font></font></option><option value="49057"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Drummondville</font></font></option><option value="46085,46112"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Farnham</font></font></option><option value="81025,81005,81017,81020,81010"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gatineau</font></font></option><option value="47017"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Granby</font></font></option><option value="66060"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hampstead</font></font></option><option value="66100"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kirkland</font></font></option><option value="60028"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The Assumption</font></font></option><option value="65101,65102,65103,65104,65105,65106,65107,65108,65109,65110,65111,65112,65113"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Laval</font></font></option><option value="25214,25215,25216"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Levis</font></font></option><option value="58015,58020,58227"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Longueuil</font></font></option><option value="73025"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorraine</font></font></option><option value="45072"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Magog</font></font></option><option value="64015"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mascouche</font></font></option><option value="57025"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">McMasterville</font></font></option><option value="67045"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mercier</font></font></option><option value="74005"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mirabel</font></font></option><option value="57035">Mont-Saint-Hilaire</option><option value="66005,66010,66015,66020,66030,66040,66045,66057,66065,66070,66075,66085,66092,66505,66110,66115,66125,66130,66150,66501,66506,66507,66508,66509,66511,66513,66514,66516">Montréal</option><option value="78102">Mont-Tremblant</option><option value="77050">Morin-Heights</option><option value="57030">Otterburn Park</option><option value="66095">Pointe-Claire</option><option value="23005,23030,23027,23031,23028,23029">Québec</option><option value="60010,60013">Repentigny</option><option value="10043">Rimouski</option><option value="80078">Ripon</option><option value="73020">Rosemère</option><option value="86042">Rouyn-Noranda</option><option value="94055,94050,94070,94040,94075,94045,94065">Saguenay</option><option value="78032">Sainte-Agathe-des-Monts</option><option value="93030">Saint-Bruno</option><option value="75005">Saint-Colomban</option><option value="67030">Saint-Catherine</option><option value="22005">Saint-Catherine-de-la-Jacques-Cartier</option><option value="67035">Saint-Constant</option><option value="72005">Saint-Eustache</option><option value="29075">Saint-George</option><option value="54045">Saint-Hyacinthe</option><option value="56083">Saint-Jean-Sur-Richelieu</option><option value="57033">Saint-Jean-Baptiste</option><option value="75017">Saint-Jérôme</option><option value="87120">Saint-Lambert</option><option value="25005">Saint-Lambert-de-Lauzon</option><option value="77040">Saint-Sauveur</option><option value="59010">Sainte-Julie</option><option value="73010">Sainte-Thérèse</option><option value="70052">Sallaberry-de-Valleyfield</option><option value="36033">Shawinigan</option><option value="43010,43020,43023,43024,43025,43030">Sherbrooke</option><option value="53052">Sorel-Tracy</option><option value="64005,64008,64020">Terrebonne</option><option value="37067">Trois-Rivières</option><option value="78010">Val David</option><option value="89008">Val D'Or</option><option value="71083">Vaudreuil-Dorion</option><option value="39062">Victoriaville</option></select><span tabindex="0" id="specified-city-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="specified-city-menu" aria-haspopup="true" class="ui-selectmenu-button ui-button ui-widget ui-selectmenu-button-closed ui-corner-all" aria-activedescendant="ui-id-11" aria-labelledby="ui-id-11" aria-disabled="false"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dollard-Des-Ormeaux</font></font></span></span>
+    
+                            <button id="btnProcess" class="button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Calculate now</font></font></button>
+                        </section>
+                        
+                        
+    
+                        <div class="note">
+                                        
+                            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For more information on transfer rights, find out about the Law on Real Estate Transfer Rights.</font></font></p><br>
+                            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Please note that the information provided by this transfer tax calculator is not intended to be used for legal, accounting or tax advice, and should not be used for these purposes.</font></font></p>
+                            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">If the municipal valuation is higher than the price paid, the city will calculate the valuation and not the price.</font></font></p>
+                            
+                                            </div>
+                        
+                    </div>
+                </div>
+                <div class="flex-66 xs-flex-100 xs-flex-order--1">
+                    <div class="text">
+                                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">This calculator has been made available to you to calculate the amount of Quebec transfer tax.</font></font></p>
+                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">To calculate the amount of your transfer tax ( welcome tax ), please complete the "Sales price" field opposite.</font></font></p>
+                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The tax may vary from one municipality to another. Click option </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Regular rate</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> to find the municipality you are looking for.</font></font></p>
+                        
+                                    </div>
+    
+                    <div id="result">
+                        <span class="value" data-format="{0}$"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5$</font></font></span>
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Your right of transfer</font></font></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!-- <script src="js/webcounters.js"></script> -->
+    <!-- <script src="js/stats.jquery.js"></script> -->
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/global.js"></script>
+    <!-- <script src="js/site.js"></script> -->
+    <script src="js/tax_transfer.js"></script>
+    <!-- <script src="js/ali-script.js"></script> -->
+    
+    <!-- <script src="js/public.min(1).js"></script> -->
+
+    <script type="text/javascript" name="page-script">jQuery(document).ready(function(){
+        model.load('');
+    })</script>
+
+    
+    
+</body>
+</html>
